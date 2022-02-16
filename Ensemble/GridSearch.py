@@ -1,6 +1,7 @@
 import numpy as np
 import copy
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+# from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+from Metric.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 class GridSearchVoting(object):
     """Class for Gridsearch
