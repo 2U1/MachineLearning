@@ -32,6 +32,7 @@ class VotingClassifier(object):
         self.named_estimator = models
         self.estimator = [list(m.values())[0] for m in models]
         self.weights = weights
+        self.name = "Voting"
 
     def _softmax(self,x):
         """ Applies softmax to an input x"""

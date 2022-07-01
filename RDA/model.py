@@ -39,7 +39,7 @@ class DiscriminentAnalysis():
         self.regularized_covariances = {}
         self.rda_covariances = {}
         self.feature_dimension = 0
-        self._estimator_type = "classifier"
+        self.name = "RDA"
 
 
     def reset(self, alpha, beta):
